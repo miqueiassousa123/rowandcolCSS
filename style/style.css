@@ -1,0 +1,92 @@
+body {
+width:auto;
+height: auto;
+background-image: url(../img/2.png);
+
+}
+.div1{
+    
+    width: 345px;
+    height: 340px;
+    background-image: url(../img/back.jpg);
+    margin: auto;
+    background-size:contain;
+    float: left;   
+
+}
+.img{
+ border: 1px solid #d1cbcb;
+  border-radius: 50%;
+  padding: 10px;
+  width: 55%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 75%;
+    position:relative;    
+}
+
+.txt{
+    
+color:darkgrey;
+font-family: 'Tenali Ramakrishna', sans-serif;
+font-size: 20px;
+text-align:center;
+}
+.txt2{
+    
+color:black;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+text-align:center;
+}
+.txt3{
+    
+color:black;
+font-family: 'Sacramento', cursive;
+font-size: 17px;
+text-align:center;
+}
+ul li{
+    color:black;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+       
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    
+}
+.row::after{
+    
+    display: block;
+    clear: both;
+    content: "";    
+}
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+*{ box-sizing: border-box; 
+}
+[class*="col-"]{
+    border: 2px solid white;
+    padding: 10px;
+    float: left;
+    
+}
+
+
+
+
+
+
